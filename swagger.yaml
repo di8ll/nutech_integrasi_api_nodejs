@@ -4,8 +4,7 @@ info:
   description: API untuk layanan registrasi, login, top up, dan transaksi
   version: 1.0.0
 servers:
-  - url: http://localhost:3000/api
-    description: Local development server
+  - url: https://nutechintegrasiapinodejs-production.up.railway.app/api
 
 tags:
   - name: Membership
