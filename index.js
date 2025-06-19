@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Nutech Integrasi API!');
+  res.send('🚀 Nutech API is running!');
 });
 
 app.listen(PORT, () => {
